@@ -1,3 +1,16 @@
+@font-face {
+  font-family:buttermilk;
+  src: url(./assets/Buttermilk.otf);
+}
+h1{
+  font-family: buttermilk;
+  font-weight: normal;
+  font-size: 3em;
+  /* margin-bottom: 20px; */
+}
+.wordle{
+  text-align: center;
+}
 .board{
   position: absolute;
   display: flex;
@@ -20,4 +33,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.correct { 
+  background: #6aaa64; 
+  color: white; 
+}
+.close { 
+  background: #c9b458; 
+  color: white; 
+}
+.incorrect { 
+  background: #787c7e; 
+  color: white; 
 }
